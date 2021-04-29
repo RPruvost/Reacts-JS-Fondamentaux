@@ -1,0 +1,19 @@
+div {
+    display:flex;
+    flex-direction: column;
+}
+.form {
+    margin-bottom: 10px;
+    width: 25%;
+}
+textarea{
+    width: 25%;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px 5px;
+    width: 15%;
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+}
