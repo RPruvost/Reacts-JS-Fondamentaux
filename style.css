@@ -1,19 +1,24 @@
-div {
-    display:flex;
-    flex-direction: column;
+button{
+    background-color: rgb(18, 27, 27);
+    color: white;
+    border-radius: 7px;
+    padding: 5px 10px;
+    display: block;
 }
-.form {
-    margin-bottom: 10px;
-    width: 25%;
+label{
+    display: block;
+    padding-bottom: 10px;
+}
+input{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 15rem;
 }
 textarea{
-    width: 25%;
-    margin-bottom: 10px;
-}
-button {
-    padding: 10px 5px;
-    width: 15%;
-    color: white;
-    background-color: blue;
-    border-radius: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 15rem;
+    min-height: 10rem;
 }
